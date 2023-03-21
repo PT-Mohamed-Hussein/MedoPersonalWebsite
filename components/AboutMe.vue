@@ -40,7 +40,7 @@
         <h1 class="m-auto tracking-wide mb-6 font-bold font-header text-secondary-mint text-2xl border-b w-fit">Meet Dr. Mohamed Osama</h1>
         <div class=" m-auto text-primary-1 flex items-center justify-center md:flex-row flex-col p-8 max-w-[1000px] gap-8">
 
-            <img src="~/personalimg.png" alt="doctor-img" class="object-cover h-[300px] relative "/>
+            <img src="@/assets/imgs/personalimg.png" alt="doctor-img" class="object-cover h-[300px] relative "/>
 
             <div class="max-w-2/3 capitalize text-xl tracking-wide flex gap-2">
 
