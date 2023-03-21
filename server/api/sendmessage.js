@@ -1,11 +1,9 @@
 
-const config = useRuntimeConfig()
-
 export default defineEventHandler(async (event)=>{
     
     let query = getQuery(event)
 
-    let webhook = config.ClinicWebhookUrl;
+    let webhook = 'https://discord.com/api/webhooks/1087868081499541544/95VHEOx5YSnTUsvaNpJ_q3avvU2SPpGBZT-UKzr-je9UWT2clhypukMVUe1EjDXo6Lnx';
 
     let FullName = query.fullname 
     if (!FullName){
@@ -33,7 +31,7 @@ export default defineEventHandler(async (event)=>{
     }
 
     if(AppointmentType == 'Online') {
-        webhook = config.OnlineWebhookUrl
+        webhook = "https://discord.com/api/webhooks/1087868269664423966/DOFUMT-SDEC7e_fB4QzbIYU8QqhnACD-aourHMbGT5HgYFR5lngodC8mWdxC15Ezpib_"
     }
 
     try{

@@ -12,10 +12,6 @@ export default defineNuxtConfig({
     build: {
         transpile: ['maz-ui'], // ⚠️ important ⚠️
     },
-    runtimeConfig:{
-        OnlineWebhookUrl: process.env.ONLINE_WEBHOOK_URL,
-        ClinicWebhookUrl: process.env.CLINIC_WEBHOOK_URL
-    },
     app:{
         head:{
             title: "PT Mohamed Osama", // for all pages
