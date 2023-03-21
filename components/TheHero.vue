@@ -45,10 +45,37 @@
         }
 
         isLoading.value = true
+        const resp = await $fetch('/api/sendmessage', {
+            params: {
+                fullname: PatientInfo.fullname,
+                email: PatientInfo.email,
+                phoneno: PatientInfo.phoneno,
+                age: PatientInfo.age,
+                type: ReservationType.value
+            }
+        })
 
-        setTimeout(() => {
+        if(resp.ok){
+            ResetPatientdata()
+            isOpen.value = false
             isLoading.value = false
-        }, 2000)
+
+            toast.info('Our Team Will Contact With You Very Soon Please Wait And Dont Spam Any Messages.', {
+                position: 'bottom',
+            })
+
+        }else{
+            isLoading.value = false
+            toast.error(resp.message || "Unkown Error Happens Please Contact Developer", {
+                position: 'bottom',
+                timeout: 1000,
+            })
+
+        }
+
+        // setTimeout(() => {
+        //     isLoading.value = false
+        // }, 2000)
     }
 
     const ResetPatientdata = () => {
