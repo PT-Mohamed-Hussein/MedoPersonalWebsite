@@ -47,7 +47,7 @@
                             <h3 class="text-secondary-hover text-lg font-body font-bold">
                                 John Doe
                             </h3>
-                            <img src="@/quotes.png" alt="qoutes" class="absolute -bottom-8 w-[50px] h-[50px] right-0 rotate-45"/>
+                            <img src="~/quotes.png" alt="qoutes" class="absolute -bottom-8 w-[50px] h-[50px] right-0 rotate-45"/>
                         </div>
                         <hr />
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In exercitationem magni iusto, quasi inventore tempora quod eligendi eius eum culpa.</p>
