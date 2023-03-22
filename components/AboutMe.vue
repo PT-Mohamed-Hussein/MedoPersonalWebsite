@@ -44,7 +44,7 @@
 
             <div class="max-w-2/3 capitalize text-xl tracking-wide flex gap-2">
 
-                <p class="type-effect relative">{{ typeValue }}</p>
+                <p class="type-effect relative text-center md:text-left">{{ typeValue }}</p>
             </div>
         </div>
     </div>
