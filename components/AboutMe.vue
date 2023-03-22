@@ -36,7 +36,7 @@
 </script>
 
 <template>
-    <div class="md:p-8 bg-primary-2">
+    <div class="md:p-8 p-4 bg-primary-2">
         <h1 class="m-auto tracking-wide mb-6 font-bold font-header text-secondary-mint text-2xl border-b w-fit text-center">Meet Dr. Mohamed Osama</h1>
         <div class=" m-auto text-primary-1 flex items-center justify-center md:flex-row flex-col md:p-8 p-4 max-w-[1000px] gap-8">
 
