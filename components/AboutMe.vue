@@ -38,7 +38,7 @@
 <template>
     <div class="p-8 bg-primary-2">
         <h1 class="m-auto tracking-wide mb-6 font-bold font-header text-secondary-mint text-2xl border-b w-fit">Meet Dr. Mohamed Osama</h1>
-        <div class=" m-auto text-primary-1 flex items-center justify-center md:flex-row flex-col p-8 max-w-[1000px] gap-8">
+        <div class=" m-auto text-primary-1 flex items-center justify-center md:flex-row flex-col md:p-8 p-4 max-w-[1000px] gap-8">
 
             <img src="@/assets/imgs/personalimg.png" alt="doctor-img" class="object-cover h-[300px] relative "/>
 
