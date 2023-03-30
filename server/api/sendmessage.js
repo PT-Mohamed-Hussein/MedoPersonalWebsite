@@ -2,7 +2,7 @@ export default defineEventHandler(async (event)=>{
     
     let query = getQuery(event)
 
-    let webhook = 'https://discord.com/api/webhooks/1087868081499541544/95VHEOx5YSnTUsvaNpJ_q3avvU2SPpGBZT-UKzr-je9UWT2clhypukMVUe1EjDXo6Lnx';
+    let webhook = 'https://discord.com/api/webhooks/1091111853805015040/R2ph-porykMqV7maJvRexw-pEaXT4VbdXRd9TpcKutbnVb-l9YApMRyZskrdI2N4c70o';
 
     let FullName = query.fullname 
     if (!FullName){
