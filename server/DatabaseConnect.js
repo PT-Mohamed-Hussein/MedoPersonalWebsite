@@ -2,7 +2,7 @@
 
 import mongoose from 'mongoose'
 
-const MONGODB_URI = process.env.MONGO_URI
+const MONGODB_URI = "mongodb+srv://ma01019486962:6SVUz0EAAkJm01xB@reviewdb.lw9pbkb.mongodb.net/?retryWrites=true&w=majority"
 let connection = null
 
 async function connectToDatabase() {
