@@ -4,6 +4,8 @@ useHead({
     class: 'dark'
   }
 });
+  
+
 </script>
 
 <template>
